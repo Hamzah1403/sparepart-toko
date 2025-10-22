@@ -12,7 +12,7 @@
 
   /* util */
   const q = sel => Array.from(document.querySelectorAll(sel));
-  const $(sel) => document.querySelector(sel);
+  const $ = sel => document.querySelector(sel);
 
   function formatRupiah(num) {
     // aman untuk angka atau string angka
