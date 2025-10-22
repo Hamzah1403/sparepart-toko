@@ -1,0 +1,53 @@
+
+.kubus{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.pentagon {
+    display: block;
+    margin: 20px auto;
+    width: 120px;
+    height: 4px;
+    background-color: #FFB703;
+    border: none;
+    border-radius: 2px;
+}
+
+#id .cart-container{
+    align-items:center;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+.item-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.item-controls button {
+  margin: 0 5px;
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 5px 10px;
+}
+
+button.delete {
+  color: red;
+  border: none;
+  background: none;
+}
+
+

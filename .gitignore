@@ -1,0 +1,118 @@
+# =============================
+# General Web Development
+# =============================
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Node modules and build output
+node_modules/
+dist/
+build/
+out/
+.tmp/
+temp/
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Cache and lock files
+*.pid
+*.seed
+*.pid.lock
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.svelte-kit/
+.vite/
+
+# Editor and IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage and test reports
+coverage/
+.nyc_output/
+test-results/
+
+# Compiled files
+*.tsbuildinfo
+*.sass-cache/
+*.css.map
+*.js.map
+
+# Output from static site generators
+public/
+.cache-loader/
+
+# Optional: Ignore package-lock.json or yarn.lock if not using lockfiles
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# =============================
+# Framework Specific
+# =============================
+
+# React
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Vue
+.vitepress/dist
+.vuepress/dist
+
+# Next.js
+.next/
+
+# Nuxt.js
+.nuxt/
+static/
+
+# Svelte
+.svelte-kit/
+
+# Angular
+.angular/cache/
+.angular/config.json
+
+# =============================
+# Assets
+# =============================
+*.psd
+*.ai
+*.xcf
+*.sketch
+*.zip
+*.rar
+
+# =============================
+# Miscellaneous
+# =============================
+# Local testing folders
+sandbox/
+playground/
+dev/
+
+# MacOS metadata
+Icon?

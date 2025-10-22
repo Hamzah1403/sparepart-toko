@@ -1,0 +1,15 @@
+.image1{
+    align-items: center;
+}
+
+.li .nav-item {
+    background-color: #f70000;
+}
+
+.button:hover{
+    transform: translateY(-5px);
+}
+
+.container {
+    text-align: center;
+}

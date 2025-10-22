@@ -1,0 +1,69 @@
+
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+}
+
+.item {
+    transition: transform 0.3s;
+    text-align: center;
+    height: 350px;
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #020202;
+}
+
+.box .container .item .beli{
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #E63946;
+    border:#E63946;
+    color: white;
+}
+
+.image3 {
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border: #020202;
+}
+
+.text1 {
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.product-name {
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.text3 {
+    color: #333;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+.box .container .item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,17 @@
+.utama {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contact-details {
+    margin-left: 100px;
+}
+
+.contact-details .number{
+    color: #E63946;
+}
+
+.contact-details .email{
+    color : blue;
+}

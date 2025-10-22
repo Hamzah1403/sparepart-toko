@@ -1,0 +1,38 @@
+
+.kotak{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+
+.text5 {
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.text6 {
+    color: #666;
+}
+
+.garis {
+    display: block;
+    margin: 20px auto;
+    width: 120px;
+    height: 4px;
+    background-color: #E63946;
+    border: none;
+    border-radius: 2px;
+}
+
+.visi {
+    display: block;
+    color: #666;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+    
